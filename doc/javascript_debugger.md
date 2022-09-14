@@ -1,9 +1,8 @@
-# Kraken QuickJS Debugger Design
+# WebF QuickJS Debugger Design
 
-Before the 0.9.0 version, Kraken used JavaScriptCore as the JS engine and provided a JavaScript Debugger implementation based on JavaScriptCore.
+Before the 0.9.0 version, WebF used JavaScriptCore as the JS engine and provided a JavaScript Debugger implementation based on JavaScriptCore.
 
-However, after version 0.9.0, Kraken migrated to the QuickJS engine. Therefore, it is necessary to re-implement the Debugger function
-
+However, after version 0.9.0, WebF migrated to the QuickJS engine. Therefore, it is necessary to re-implement the Debugger function
 
 
 ##  Design goals
@@ -14,7 +13,7 @@ A design needs to both meet current functional requirements and prepare for hidd
 
 ## The ultimate goal of JS Debugger
 
-We hope that Kraken's JavaScript Debugger can perform code debugging smoothly without any JS Engine or any debugging tools, including but not limited to Chrome DevTools, VsCode Debugger, and WebStore Debugger.
+We hope that WebF's JavaScript Debugger can perform code debugging smoothly without any JS Engine or any debugging tools, including but not limited to Chrome DevTools, VsCode Debugger, and WebStore Debugger.
 
 
 

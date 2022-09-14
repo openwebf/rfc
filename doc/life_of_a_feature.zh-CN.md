@@ -8,7 +8,7 @@
 
 ## 提案
 
-如果 Kraken Team 的成员某个问题很感兴趣，可以基于这个问题来设计对应的提案。
+如果 WebF Team 的成员某个问题很感兴趣，可以基于这个问题来设计对应的提案。
 
 提案的文档格式将基于 [GitHub flavored Markdown format](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown) 编写，同时文件也必须以 `.md` 为结尾。
 
@@ -18,7 +18,7 @@
 
 ## 投票
 
-新的提案在实施之前，需要经过 [Kraken TSC](https://github.com/openkraken/TSC) 进行投票。
+新的提案在实施之前，需要经过 [WebF TSC](https://github.com/openwebf/TSC) 进行投票。
 
 当票数超过一半以上的时候，这个提案将被通过，从而进入下一个阶段。
 

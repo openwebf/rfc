@@ -2,11 +2,11 @@
 
 ## From a issue
 
-All new features are start from a new issue. This issue can be issued by any person in kraken repo, or some hardcore problems which everyone are facing.
+All new features are start from a new issue. This issue can be issued by any person in WebF repo, or some hardcore problems which everyone are facing.
 
 ## Proposal
 
-If a member of kraken team are interested in one issue. He/She can submit a proposal to solve this problem.
+If a member of WebF team are interested in one issue. He/She can submit a proposal to solve this problem.
 
 The doctype of proposal should follow the [GitHub flavored Markdown format](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown) rules and fileType should ended with `.md`.
 
@@ -16,7 +16,7 @@ All new proposal should put into the `working` directory.
 
 ## Vote
 
-Before new proposal are implemented, it should be voted by [Kraken TSC](https://github.com/openkraken/TSC).
+Before new proposal are implemented, it should be voted by [WebF TSC](https://github.com/openWebF/TSC).
 
 When half of team members are approved, this proposal are accepted, can be moving to the next stage.
 

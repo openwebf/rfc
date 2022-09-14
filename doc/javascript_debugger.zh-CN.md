@@ -1,8 +1,8 @@
-# Kraken QuickJS Debugger 设计
+# WebF QuickJS Debugger 设计
 
-Kraken 在 0.9.0 版本之前，采用了 JavaScriptCore 作为 JS 引擎，并提供了基于 JavaScriptCore 的 JavaScript Debugger 实现。
+WebF 在 0.9.0 版本之前，采用了 JavaScriptCore 作为 JS 引擎，并提供了基于 JavaScriptCore 的 JavaScript Debugger 实现。
 
-不过 0.9.0 版本之后，Kraken 迁移到了 QuickJS 引擎。因此需要重新实现 Debgger 功能
+不过 0.9.0 版本之后，WebF 迁移到了 QuickJS 引擎。因此需要重新实现 Debgger 功能
 
 
 
@@ -14,7 +14,7 @@ Kraken 在 0.9.0 版本之前，采用了 JavaScriptCore 作为 JS 引擎，并�
 
 ## JS Debugger 的最终目标
 
-我们希望 Kraken 的 JavaScript Debugger 能够不限任何 JS Engine，不限制使用的调试工具，包括但不限于 Chrome DevTools，VsCode Debugger，WebStore Debugger，都可以流畅进行代码调试。
+我们希望 WebF 的 JavaScript Debugger 能够不限任何 JS Engine，不限制使用的调试工具，包括但不限于 Chrome DevTools，VsCode Debugger，WebStore Debugger，都可以流畅进行代码调试。
 
 
 
