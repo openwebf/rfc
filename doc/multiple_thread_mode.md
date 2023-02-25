@@ -36,6 +36,14 @@ Some DOM API's return value rely on the current rendering layout state. In singl
 
 Since the flutter.ui and JavaScript run in parallel, it can affect the accurancy of the viewport offset APIs.
 
+## Enable Multiple Thread mode
+
+```dart
+WebF(
+  enableMultipleThreadMode: true
+),
+```
+
 
 ## Code Generator
 
