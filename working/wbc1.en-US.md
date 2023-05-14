@@ -106,3 +106,18 @@ It is always the last chunk in the file and has a specific structure:
 │      Length       │    CHUNK_TYPE    │        END
 └───────────────────┴──────────────────┘
 ```
+
+## Compatibility with older version of WebF/Kraken
+
+WBC1 is a new type of file that older version of WebF/Kraken cannot regonize and parse. Only versions of WebF released after the first supported version can accept this file.
+
+## Tools and infrastructure
+
+The WBC1 generator will locate at newer version of https://github.com/openwebf/node-qjsc
+
+The newer [webf-cli](https://github.com/openwebf/cli) will ship a new command to compile a javascript file into a wbc1 file.
+
+```
+webf qjsc demo.js --pluginName "demo://" --wbc1 ./demo.wbc1
+```
+
