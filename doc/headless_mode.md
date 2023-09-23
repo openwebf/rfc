@@ -10,7 +10,7 @@ The existing alternatives for javascript runtimes in Flutter do not provide the 
 
 ### The headless mode.
 
-![diagram](https://github.com/RefractureMedia/openwebf-rfc/assets/12068027/c0b30cf8-5c8d-4757-8e23-c85c5d81a81f)
+![img](../images/no-rendering.png)
 
 In the headless mode, the Rendering step will will be skipped and all dependence on running within the active `Scaffold` will be removed.
 
