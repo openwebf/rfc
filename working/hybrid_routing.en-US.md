@@ -61,11 +61,11 @@ In WebF with hybrid routing mode enabled, these APIs should override their defau
 
 WebF should provide internal JavaScript APIs to be called by router libraries, including:
 
-1. webf.navigation.push()
-2. webf.navigation.replace()
-3. webf.navigation.back()
-4. webf.navigation.forward()
-5. webf.navigation.go()
+1. webf.hybrid_history.push()
+2. webf.hybrid_history.replace()
+3. webf.hybrid_history.back()
+4. webf.hybrid_history.forward()
+5. webf.hybrid_history.go()
 
 **Tips for Implementing These Internal WebF JavaScript APIs**
 
